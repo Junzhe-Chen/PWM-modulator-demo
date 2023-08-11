@@ -7,7 +7,7 @@ clc;
 
 % Parameters
 sineFrequency = 1; % Frequency in Hz Default set as standard 1kHz
-sineNumPoints = 20000; % Number of data points
+sineNumPoints = 5000; % Number of data points
 sineSamplingRate = 1000* sineFrequency; % Sampling rate in Hz, 1000 points per cycle
 t = (0:sineNumPoints-1) / sineSamplingRate;% Define time axis
 
@@ -57,8 +57,8 @@ sawtoothWaveReference = sawtoothAmplitude * sawtooth(2 * pi * sawtoothFrequency 
 % grid on;
 
 %% Class D modulation of the sine wave
-outputVal = zeros(1,20000);
- for i = 1:1:20000
+outputVal = zeros(1,sineNumPoints);
+ for i = 1:1:sineNumPoints
      if sawtoothWaveReference(i) <= sineWaveSignal(i)
          outputVal(i) = 1;
      else
