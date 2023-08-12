@@ -1,11 +1,23 @@
 # PWM-modulator-demo
-A PWM modulator demo written in MATLAB that uses the figure to demostrate the process of PWM (Class D) modulation of a sine wave
+A PWM modulator demo written in MATLAB uses the figure to demonstrate the PWM (Class D) modulation process of a sine wave.
 
-Figure of the PWM modulation process
+I uploaded the MATLAB script file (.m); it might have some minor issues, and I will fix them later. Also, I am considering making a MATLAB live script (.mlx) with sliders that you can tweak around during the demo session. I will commit the file as soon as I finish coding it. 
+
+In the program, there are five plots, namely:
+
+- Figure of sine wave input
+![Sine wave input](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/7a373d59-a91a-42a1-929f-8a713f9425f6)
+
+- Figure of sawtooth wave reference
+![Sawtooth wave reference](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/2fdb3283-6568-43dd-9b59-be4cf7ea41be)
+
+- Figure that contains the input signal, reference sawtooth waveform and output PWM that shows the modulation process
 ![PWM modulation plot](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/5e7a755f-5b6b-483b-a5b0-c2df8f0a6736)
-
-Figure of the output filtering process
+  
+- Figure of the output filter process
 ![Filtered output waveform](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/bcb0a2fa-6e99-44be-8432-912abf14f766)
 
-Figure of the difference between input signal and the filtered modulation signal
-![Difference between input and output](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/ee8ad147-7c85-4faa-84a2-74abe8dcbac4)
+- Figure that compares the difference between the input signal and the filtered output signal
+![difference between input and output](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/bf7dfc00-b015-4499-95e2-57093bdb5a39)
+
+Have fun playing around!
