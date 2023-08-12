@@ -1,7 +1,9 @@
 # PWM-modulator-demo
 A PWM modulator demo written in MATLAB uses the figure to demonstrate the PWM (Class D) modulation process of a sine wave.
 
-I uploaded the MATLAB script file (.m); it might have some minor issues, and I will fix them later. Also, I am considering making a MATLAB live script (.mlx) with sliders that you can tweak around during the demo session. I will commit the file as soon as I finish coding it. 
+I uploaded the MATLAB script file (.m) as well as the MATLAB live script file (.mlx), which you can open by clicking the button below:
+
+[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=Junzhe-Chen/PWM-modulator-demo&file=https://github.com/Junzhe-Chen/PWM-modulator-demo/blob/main/Class_D_modulator_MATLAB.mlx)
 
 In the program, there are five plots, namely:
 
