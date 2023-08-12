@@ -20,4 +20,14 @@ In the program, there are five plots, namely:
 - Figure that compares the difference between the input signal and the filtered output signal
 ![difference between input and output](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/bf7dfc00-b015-4499-95e2-57093bdb5a39)
 
+Ver. 1.2 Update: I redesign that program in live editor, it looks like this:
+
+![Live editor UI](https://github.com/Junzhe-Chen/PWM-modulator-demo/assets/141964509/954c1bb6-6da2-4502-88c9-95d94bf0eab7)
+
+Now the following parameters can be changed by tweaking sliders:
+
+- Frequency of the input sine wave
+- period of the sine wave that is being displayed
+- modulation multiplier
+
 Have fun playing around!
